@@ -1,0 +1,140 @@
+.moreUscontent{
+  display: flex;
+  margin-top: 3rem;
+  text-align: justify;
+}
+#moreUs .moreUscontent .moreUsText {
+  width: 1000px;
+  margin-top: 2rem;
+  padding: 0 2rem;
+}
+#moreUs .moreUscontent .moreUsText p{
+  margin-bottom: 2rem;
+}
+#moreUs .moreUscontent .moreUsImg{
+  margin-top: 5rem;
+  margin-left: 2rem;
+}
+/* Get a Quote page */
+
+#blackbg {
+  background: url(/images/Backgroud_blackyellow.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 38rem;
+  color: white;
+  text-align: justify;
+  padding-bottom: 3rem;
+}
+.getForm{
+  margin-bottom: 3rem;
+  margin: 0 2rem;
+  border: 1px solid #ffffff2b;
+  padding: 2rem 1rem;
+  background: #9292922e;
+}
+
+.getForm .submit_btn{
+  background-color: rgb(122, 142, 142) ;
+  width: -webkit-fill-available;
+  
+}
+.getContent{
+  display: flex;
+  flex-direction: row;
+}
+.getQuoteform{
+  width: 500px;
+  margin-bottom: 1rem;
+}
+#blackbg .container .getContent .getAbout {
+  margin: 0 2rem;
+}
+#blackbg .container .getContent .getAbout h2{
+  color: #ffaf45;
+}
+.clientid{
+  position: absolute;
+  top: -106px;
+  width: 177px;
+  text-align: justify;
+  background: #000000c7;
+  color: white;
+  border: 1px solid #ffffffc2;
+  border-radius: 10px;
+  padding: 1rem;
+  visibility: hidden;
+}
+.clientIDdiv:hover ~ .clientid {
+  visibility:visible ;
+}
+
+@media (max-width: 1199px){
+  #blackb{
+    margin-left: 2rem;
+  }
+}
+@media (max-width: 1199px){
+  #blackbg {
+    padding-top: 28rem;
+  }
+  .getForm{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+  #moreUs .moreUscontent .moreUsImg{
+    width: 800px;
+  }
+}
+@media (max-width: 991px){
+  #blackbg {
+    padding-top: 26rem;
+  }
+  .getContent {
+    display: block;
+    margin-top: 2rem;
+  }
+  .getForm {
+    justify-content: unset;
+    display: block;
+    align-items: unset;
+  }
+  .getQuoteform {
+    width: unset;
+    
+  }
+  .myform{
+    display: flex;
+    flex-direction: column;
+  }
+  .moreUscontent {
+    margin-top: 1rem;
+    text-align: justify;
+    flex-direction: column-reverse;
+
+  }
+  #moreUs .moreUscontent .moreUsText {
+    width: unset;
+  }
+  #moreUs .moreUscontent .moreUsImg {
+    margin-top: 2rem;
+    margin-left: 0;
+    padding-right: 0;
+    width: auto;
+  }
+}
+@media (max-width: 767px){
+  
+  .getQuoteform {
+    width: -webkit-fill-available;
+  }
+
+  /* .moreUscontent {
+    display: block;
+  }
+ */
+  #moreUs .moreUscontent .moreUsImg{
+    width: auto;
+  }
+}
